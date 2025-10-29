@@ -25,7 +25,7 @@ export default defineConfig({
   reporter: "html",
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
-    baseURL: "http://localhost:8080", // 👈 tu servidor local o entorno de test
+    baseURL: "http://localhost:8080",
     headless: false, // opcional, para ver la UI
   },
 
